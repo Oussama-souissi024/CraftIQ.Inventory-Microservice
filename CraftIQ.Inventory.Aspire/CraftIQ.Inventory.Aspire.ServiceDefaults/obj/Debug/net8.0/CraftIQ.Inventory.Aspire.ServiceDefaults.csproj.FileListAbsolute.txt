@@ -1,0 +1,12 @@
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\bin\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.deps.json
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\bin\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\bin\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.AssemblyInfo.cs
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\refint\CraftIQ.Inventory.Aspire.ServiceDefaults.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\CraftIQ.Inventory.Aspire.ServiceDefaults.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Aspire\CraftIQ.Inventory.Aspire.ServiceDefaults\obj\Debug\net8.0\ref\CraftIQ.Inventory.Aspire.ServiceDefaults.dll

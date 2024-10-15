@@ -1,0 +1,15 @@
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\bin\Debug\net8.0\CraftIQ.Inventory.Core.deps.json
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\bin\Debug\net8.0\CraftIQ.Inventory.Core.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\bin\Debug\net8.0\CraftIQ.Inventory.Core.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\bin\Debug\net8.0\CraftIQ.Inventory.Shared.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\bin\Debug\net8.0\CraftIQ.Inventory.Shared.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.csproj.AssemblyReference.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.AssemblyInfoInputs.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.AssemblyInfo.cs
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.csproj.CoreCompileInputs.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ..CF83E657.Up2Date
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\refint\CraftIQ.Inventory.Core.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\CraftIQ.Inventory.Core.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Core\obj\Debug\net8.0\ref\CraftIQ.Inventory.Core.dll

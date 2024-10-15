@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CraftIQ.Inventory.API.props" />
+</Project>

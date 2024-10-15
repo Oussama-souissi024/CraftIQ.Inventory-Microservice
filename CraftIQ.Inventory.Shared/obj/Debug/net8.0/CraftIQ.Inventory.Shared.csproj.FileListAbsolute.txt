@@ -1,0 +1,11 @@
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\bin\Debug\net8.0\CraftIQ.Inventory.Shared.deps.json
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\bin\Debug\net8.0\CraftIQ.Inventory.Shared.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\bin\Debug\net8.0\CraftIQ.Inventory.Shared.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\CraftIQ.Inventory.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\CraftIQ.Inventory.Shared.AssemblyInfoInputs.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\CraftIQ.Inventory.Shared.AssemblyInfo.cs
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\CraftIQ.Inventory.Shared.csproj.CoreCompileInputs.cache
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\CraftIQ.Inventory.Shared.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\refint\CraftIQ.Inventory.Shared.dll
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\CraftIQ.Inventory.Shared.pdb
+C:\Users\oussa\OneDrive\Desktop\CraftIQ\CraftIQ.Inventory-main\CraftIQ.Inventory.Shared\obj\Debug\net8.0\ref\CraftIQ.Inventory.Shared.dll

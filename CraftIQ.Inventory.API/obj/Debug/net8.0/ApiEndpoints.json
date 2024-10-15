@@ -1,0 +1,734 @@
+[
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Categories.Read.Categories",
+    "Method": "HandleAsync",
+    "RelativePath": "category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Categories.Read.ReadCategoriesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Categories.Create.Categories",
+    "Method": "HandleAsync",
+    "RelativePath": "category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Categories.Create.CreateCategoriesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Categories.Create.CreateCategoriesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Categories.Update.Categories",
+    "Method": "HandleAsync",
+    "RelativePath": "category/{categoryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Category",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Categories.Update.CategoryBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Categories.Read.ById.Categories",
+    "Method": "HandleAsync",
+    "RelativePath": "category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Categories.Read.ById.ReadCategoriesByIdResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Categories.Delete.Categories",
+    "Method": "HandleAsync",
+    "RelativePath": "category/{categoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Categories.Read.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "category/{categoryId}/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Categories.Read.ReadProductsByCategoryIdResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Categories.Read.ById.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "category/{categoryId}/products/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Categories.Read.ReadProductsByCategoryIdResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Categories.Update.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "category/products/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Product",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Categories.Update.UpdateProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Inventories.Read.Inventories",
+    "Method": "HandleAsync",
+    "RelativePath": "inventories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Inventories.Read.ReadInventoriesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Inventories.Create.Inventories",
+    "Method": "HandleAsync",
+    "RelativePath": "inventories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Inventories.Create.CreateInventoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Inventories.Create.CreateInventoryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Inventories.Update.Inventories",
+    "Method": "HandleAsync",
+    "RelativePath": "inventories/{inventoryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inventoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Inventory",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Inventories.Update.InventoryBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Inventories.Read.ById.Inventories",
+    "Method": "HandleAsync",
+    "RelativePath": "inventories/{inventoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inventoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Inventories.Read.ReadInventoriesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Inventories.Delete.Inventories",
+    "Method": "HandleAsync",
+    "RelativePath": "inventories/{inventoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inventoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Read.OrderDetails",
+    "Method": "HandleAsync",
+    "RelativePath": "orderDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Read.ReadOrderDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Create.OrderDetails",
+    "Method": "HandleAsync",
+    "RelativePath": "orderDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Create.CreateOrderDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Create.CreateOrderDetailResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Update.OrderDetails",
+    "Method": "HandleAsync",
+    "RelativePath": "orderDetails/{orderDetailId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderDetailId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "OrderDetail",
+        "Type": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Update.OrderDetailBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Read.ById.OrderDetails",
+    "Method": "HandleAsync",
+    "RelativePath": "orderDetails/{orderDetailId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderDetailId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Read.ReadOrderDetailsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.OrderDetials.Delete.OrderDetails",
+    "Method": "HandleAsync",
+    "RelativePath": "orderDetails/{orderDetailId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderDetailId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Orders.Read.Orders",
+    "Method": "HandleAsync",
+    "RelativePath": "orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Orders.Read.ReadOrdersResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Orders.Create.Orders",
+    "Method": "HandleAsync",
+    "RelativePath": "orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Orders.Create.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Orders.Create.CreateOrderResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Orders.Update.Orders",
+    "Method": "HandleAsync",
+    "RelativePath": "orders/{orderId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Order",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Orders.Update.OrderBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Orders.Read.ById.Orders",
+    "Method": "HandleAsync",
+    "RelativePath": "orders/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Orders.Read.ReadOrdersResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Orders.Delete.Orders",
+    "Method": "HandleAsync",
+    "RelativePath": "orders/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Read.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Read.ReadProductsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Create.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Create.CreateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Create.CreateProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Update.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "products/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Product",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Update.ProductBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Read.ById.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "products/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Products.Read.ReadProductsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Products.Delete.Products",
+    "Method": "HandleAsync",
+    "RelativePath": "products/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Transactions.Read.Transactions",
+    "Method": "HandleAsync",
+    "RelativePath": "transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Transactions.Read.ReadTransactionsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Transactions.Create.Transactions",
+    "Method": "HandleAsync",
+    "RelativePath": "transactions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Transactions.Create.CreateTransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Transactions.Create.CreateTransactionResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Transactions.Update.Transactions",
+    "Method": "HandleAsync",
+    "RelativePath": "transactions/{transactionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Transaction",
+        "Type": "CraftIQ.Inventory.API.Endpoints.Transactions.Update.TransactionBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Transactions.Read.ById.Transactions",
+    "Method": "HandleAsync",
+    "RelativePath": "transactions/{transactionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CraftIQ.Inventory.API.Endpoints.Transactions.Read.ReadTransactionsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CraftIQ.Inventory.API.Endpoints.Transactions.Delete.Transactions",
+    "Method": "HandleAsync",
+    "RelativePath": "transactions/{transactionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
